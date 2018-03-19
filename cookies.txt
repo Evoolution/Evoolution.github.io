@@ -1,0 +1,20 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.evoolution.ca	TRUE	/	FALSE	1999999999	visitorDeviceClass	desktop
+www.evoolution.ca	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	020514sqvfrr0azu1key1pjt
+evoolution.ca	TRUE	/	FALSE	1999999999	ANONID_FS371390	17.02.2017 00:31:50.135
+.wikipedia.org	TRUE	/	FALSE	1999999999	GeoIP	CA:AB:St._Albert:53.63:-113.64:v4
+commons.wikimedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	17-Feb-2017
+.wikimedia.org	TRUE	/	FALSE	1999999999	GeoIP	CA:AB:St._Albert:53.63:-113.64:v4
+commons.wikimedia.org	TRUE	/	FALSE	1999999999	commonswikiSession	vacc7smul5uepg259tiup8vlcr47gkmv
+commons.wikimedia.org	TRUE	/	FALSE	1999999999	forceHTTPS	true
+upload.wikimedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	17-Feb-2017
+.wikimedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access-Global	17-Feb-2017
+en.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	19-Mar-2018
+.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access-Global	19-Mar-2018
+en.wikipedia.org	TRUE	/	FALSE	1999999999	enwikiSession	mmhg10mtoah6l15hg07t52fe6rhua93m
+.wikipedia.org	TRUE	/	FALSE	1999999999	forceHTTPS	deleted
+en.wikipedia.org	TRUE	/	FALSE	1999999999	forceHTTPS	true
+evoolution.ca	TRUE	/	FALSE	1999999999	ANONID371390	259030b2-8f83-41ce-9bad-0d19011a7139
+evoolution.ca	TRUE	/	FALSE	1999999999	VISID371390	bc8a00ab-3bfe-4b9a-9bff-617f1696e826#www.evoolution.ca#19.03.2018 00:21:40.162
+
