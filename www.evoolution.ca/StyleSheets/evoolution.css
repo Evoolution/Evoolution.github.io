@@ -1,0 +1,1335 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: #edede1;
+	font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.container {
+	background: #fff;
+	padding: 0 20px 12px 20px;
+	-moz-box-shadow: 0px 0px 10px #888;
+    -webkit-box-shadow: 0px 0px 10px #888;
+    box-shadow: 0px 0px 10px #888;
+}
+
+
+
+
+.new_cart_link {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 35px;
+    font-weight: bold;
+    text-align: right;
+	float: right;
+    width: 142px;
+    padding: 2px 6px 0 0;
+    border-left: 1px solid white;
+}
+    
+.cart_icon {
+    height: 35px;
+    float: right;
+    padding-right: 12px;
+}
+	
+
+.new_cart_link  a:link, .new_cart_link a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #78a32f;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.new_cart_link  a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #000;
+    font-weight: bold;
+    line-height: 35px;
+}    
+    
+
+
+/* CONTACT */
+
+.contact a:link, .contact a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: #78a32f;
+}
+
+.contact  a:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: #000;
+}    
+
+
+
+/* COMMON NAVIGATION */
+
+#nav {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	height: 35px;
+	padding: 2px 0 0 22px;
+	margin: 0px 0px 0px 0px;
+	letter-spacing:.025em;
+	color: #78a32f;
+	font-size: 13px;
+}
+
+#nav ul {
+	text-align: left;
+}
+
+#nav li {
+	display: inline;
+	color: #78a32f;
+}
+
+#nav a:link, #nav a:visited {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+	text-decoration: none;
+	color: #78a32f;
+	line-height: 35px;
+}
+
+#nav a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+	text-decoration: none;
+	color: #000;
+	line-height: 35px;
+}
+
+#nav_container {
+	background-color: #efede1;
+}
+
+
+#nav2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	height: 35px;
+    width: 255px;
+	padding: 2px 0 0 0px;
+	margin: 0px 0px 0px 0px;
+	letter-spacing:.025em;
+	color: #78a32f;
+	font-size: 13px;
+}
+
+
+#nav2 ul {
+	text-align: right;
+}
+
+#nav2 li {
+	display: inline;
+	color: #98262b;
+}
+
+#nav2 a:link, #nav2 a:visited {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+	text-decoration: none;
+	color: #98262b;
+	line-height: 35px;
+}
+
+#nav2 a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+	text-decoration: none;
+	color: #000;
+	line-height: 35px;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	height: 34px;
+	margin: 20px 0px 0px 0px;
+	padding: 2px 0px 0px 20px; 
+	color: #999;
+	font-size: 11px;
+	background: #efede1;
+}
+
+#footer li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	display: inline;
+	color: #999;
+}
+
+#footer a:link, #footer a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	text-decoration: none;
+	color: #999;
+	line-height: 34px;
+}
+
+#footer a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	text-decoration: none;
+	color: #000;
+	line-height: 34px;
+}
+
+
+.email_footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    height: 34px;
+    line-height: 34px;
+    color: #78a32f;
+}
+
+
+
+/* FEATURED ITEMS */
+
+
+#featured {
+	width: 136px;
+	padding: 15px;
+	float: left;
+	border: 12px solid #edede1;
+    margin: 10px 0 0 0;
+}
+
+#featured_details .category{
+	color: #000;
+	font-weight: bold;
+}
+
+#featured_details .name{
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#featured_details  {
+	color: #999;
+	line-height: 1.2em;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 6px 0 15px 8px;
+    border-bottom: 1px solid #edede1;
+}
+
+#featured_details  a:link, #featured_details a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	text-decoration: none;
+	color:#78a32f;
+	line-height: 1em;
+}
+
+#featured_details  a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+	color: black;
+}
+
+.featured_image{
+    margin: 14px 0 14px 0;
+}
+
+
+/* BLOG */
+
+.blog_container {
+    margin-left: 20px;
+}
+
+.blogsidebar ul{
+}
+
+.blogsidebar ul{
+    display: block;    
+}
+
+
+.blog_container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.blog_container li {
+    line-height: 1.2em;
+    padding-bottom: 12px;
+}
+
+.blog_container  a:link, .blog_container a:visited {
+	text-decoration: underline;
+    color: #78a32f;
+}
+
+
+.blog_container  a:hover {
+	color: black;
+}
+
+
+
+.blog_header {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-size: 66px;
+	color: #78a32f;
+	padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.blog_title {
+	font-size: 24px;
+  	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+  	padding-bottom: 8px;
+	border-bottom: 1px solid #edede1;
+	line-height: 1em;
+}
+
+.blog_title  a:link, .blog_title a:visited {
+	text-decoration: none;
+	color:#000;
+	line-height: 1em;
+}
+
+.blog_title  a:hover {
+	color: #78a32f;
+}
+
+.blog_content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+.blog_content  a:link, .blog_content a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: #78a32f;
+	line-height: 1em;
+}
+
+.blog_content  a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: #000
+}
+
+
+
+.blog_date {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999;
+	padding: 4px 0px 10px 0px;
+}
+
+.blog_content img{
+	height: auto;
+	max-width: 475px;
+}
+
+.blog_sidebar_header {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+}
+
+.side-panel ul {
+	text-align: left;
+    padding:0 0 0 50px;
+}
+
+.side-panel li {
+	display: block;
+    list-style-type: circle;
+    	padding:0 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+/* CATEGORY PAGES */
+
+#category_name {
+    display: table;
+}
+
+#category_name_child {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+.category_intro {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.category_intro_vinegar {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	line-height: 2.4em;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+.category_intro_oil {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	line-height: 2.8em;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+.category_intro_salts {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	line-height: 1.5em;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+.category_intro_accessories {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	line-height: 2.4em;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+
+.category_intro_olivella {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	line-height: 3.4em;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+.category_intro_pantry {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	line-height: 2.4em;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+
+.category_intro_gifts {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	line-height: 3em;
+	font-size: 66px;
+	color: #78a32f;
+}
+
+
+.category_intro_description {
+	border-left: solid 5px #edede1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.3em;
+	color: #999999;
+	padding-left: 20px;
+}
+
+.category_intro_header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 1.3em;
+	color: #78a32f;
+}
+
+.category_intro_header  a:link, .category_intro_header a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #78a32f;
+}
+
+.category_intro_header  a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+	font-size: 13px;
+	color: black;
+}
+
+
+.category_container {
+	margin-left: 20px;
+	padding: 0;
+}
+
+.category_container li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.category_sub {
+	height: 38px;
+	width: 680px;
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-weight: 400;
+	font-size: 28px;
+	color: #b3b3b3;
+	border-bottom: 7px solid #E6E6E6;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+.category_sub_link  a:link, .category_sub_link a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 13px;
+	text-decoration: none;
+	color: #ccc4a2;
+	line-height: 1em;
+}
+
+.category_sub_link  a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.category_divider {
+	background-image: url(../images/site/category_divider.png);
+	background-repeat:repeat-y;
+	overflow: auto;
+	width: 100%;	
+}
+
+
+.category_divider_noline {
+	overflow: auto;
+	width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+    padding-bottom: 15px;
+	color: #78a32f;
+}
+
+
+
+.item_container {
+	width: 311px;
+	margin-left: 0px;
+	margin-right: 52px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	float:left;
+	height: 145px;
+	padding: 5px 0px 7px 0px;
+	background: #FFF;
+	border-bottom: 7px solid #E6E6E6;
+}
+
+.item_container_inner {
+	width: 175px;
+	float: left;
+	padding-right: 12px;
+}
+
+.item_link  a:link, .item_link a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #78a32f;
+	line-height: 1em;
+}
+
+.item_link  a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+    line-height: 1em;
+}
+
+
+
+
+
+.item_container_name {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	line-height: 1.2;
+	color:#78a32f;
+}
+
+.item_container_name  a:link, .item_container_name a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 1.2;
+	color:#78a32f;
+}
+
+.item_container_name  a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 1.2;
+	color: black;
+}
+
+
+
+
+
+.item_container_price {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+	line-height: 1.3em;
+	padding: 6px 0px 12px 0px;
+
+}
+
+
+.item_container_description {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.2;
+	color: #000;
+	padding-bottom: 12px;
+}
+
+	
+.catProductAttributeGroup {
+	float: left;
+	padding-right: 5px;
+}
+
+
+/* RELATED ITEMS */
+
+.related_container {
+	height: 230px;
+    width: 700px;
+	padding-top: 15px;
+	margin: 0px;
+    border-top: 1px solid #F4F4F4;
+}
+	
+.related_item {
+	padding: 15px;
+	background: #F4F4F4;
+	width: 122px;
+	float: left;
+	height: 190px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color:#999999;
+	line-height: 1.1em;
+}
+
+.related_item  a:link, .related_item a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#78a32f;
+	line-height: 2em;
+	font-size: 12px;    
+}
+
+.related_item  a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	line-height: 2em;
+	font-size: 12px;  
+}
+
+.related_image {
+	text-align:center;
+	margin-bottom: 15px;
+}
+
+.recommendations {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+    padding-bottom: 5px;
+	color: #78a32f;
+}
+
+
+
+/* PRODUCT PAGE */
+
+.product_name {
+	font-size: 32px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+}
+
+.product_category {
+	font-size: 26px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #78a32f;
+	font-style: italic;
+}
+
+.product_description {
+	font-size: 13px;
+	line-height: 1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+    margin-bottom: 35px;
+}
+
+
+.product_description  a:link, a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #999;
+	line-height: 1.6em;
+}
+
+.product_description  a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    text-decoration: none;
+	color: #000;
+	line-height: 1.6em;
+}
+
+
+.three_word {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+    line-height: 17px;
+	color: #999;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.add_to_cart {
+	color: #78a32f;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background: #fff;
+	margin-top: 2px; 
+	padding: 2px 5px 5px 10px; 
+	height: auto;
+	width: 400px;
+	height: auto;
+}
+	
+
+.product_page_price {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+}
+    
+
+.stock-0 {
+    z-index: 5;
+    background-image: url(../images/site/out_of_stock.jpg);
+    background-repeat: no-repeat;
+    height: 20px;
+}
+
+.stock-0cart {
+    display: none;
+}
+
+.stock-0qty {
+    display: none;
+}
+
+
+	
+/* RECIPES */	
+
+.recipes_header_main {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-size: 66px;
+	color: #78a32f;
+	padding-bottom: 0px;
+}
+
+
+.recipe_page_list {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 1.2;
+	color:#78a32f;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ccc;
+}
+
+
+.recipe_page_list  a:link, .recipe_page_list a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 1.2;
+	color:#78a32f;
+}
+
+.recipe_page_list  a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 1.2;
+	color: black;
+}
+
+.recipe_number {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 1.3;
+	color:#a4a4a4;
+}
+
+
+
+
+
+.recipes_image {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.recipes_image img {
+    height: auto;
+    max-width: 450px;
+}
+
+.recipes_header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 1.5;
+	color: #78a32f;
+	padding: 12px 0px 12px 0px;
+}
+
+
+.recipes_ingredients {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1em;
+	color: #666;
+	padding-bottom: 30px;
+}
+
+.recipes_instructions {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 1em;
+	color: #000;
+	padding-bottom: 12px;
+}
+
+
+.recipe_category_sub {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-weight: 400;
+	font-size: 28px;
+	color: #b3b3b3;
+	border-bottom: 7px solid #E6E6E6;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+    line-height: 1em;
+}
+
+
+.recipe_name {
+	font-size: 32px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #78a32f;
+    margin-bottom: 3px;
+}
+
+
+.recipe_intro {
+    font-size: 16px;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    padding-bottom: 10px;
+}
+
+
+/* Sidebar Update */
+
+.sidebar_update {
+    font-size: 12px;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+  	text-align: center;
+    padding: 0px;
+    height: auto;
+    color: #78a32f;
+    background: #ffffff;
+    margin: 6px 0 5px 0;
+    border: 0px solid #edede1;
+}
+
+
+/* Tastings */
+
+.tastings_container {
+	margin-left: 20px;
+	padding: 0;
+}
+
+.tastings_container ul {
+	list-style-type: disc;
+    padding:0 0 20px 0;
+    margin-left: 20px;
+}
+
+
+
+.tastings_container li {
+    line-height: 1.8em;
+}
+
+
+
+
+
+.tastings_header_main {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;;
+	font-size: 66px;
+	color: #78a32f;
+	padding-bottom: 0px;
+}
+
+.tastings_intros {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666;
+	padding-bottom: 20px;
+}
+
+
+.tastings_page_intro {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.5;
+    margin-bottom: 30px;
+	color: #000;
+}
+
+
+.tastings_page_intro  a:link, .tastings_page_intro a:visited {
+	text-decoration: none;
+    color:#78a32f;
+}
+
+.tastings_page_intro  a:hover {
+	color: #666;
+    text-decoration: underline;
+}
+
+
+.tastings_cat_dropdown {
+    width: 100px;
+}
+
+
+
+
+.tastings_event_name {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 28px;
+	line-height: 1.5;
+	color: #78a32f;
+	padding-bottom: 10px;
+}
+
+
+.tastings_event_date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	color: #999;
+}
+
+
+.tastingeventslist {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #999;
+    margin-top: 15px;
+    
+}
+
+
+.tastings_event_registerbelow {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.3;
+	color: #78a32f;
+	padding-bottom: 15px;
+}
+
+
+
+.tastingeventslist  a:link, a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #78a32f;
+	line-height: 1.3em;
+}
+
+.tastingeventslist  a:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+	text-decoration: none;
+	color: #000;
+	line-height: 1.3em;
+}
+
+
+
+.event_percent {
+	display: none;
+}
+
+
+.event_register_hide-0 {
+    display: none;
+}
+
+.event_full_message {
+    z-index: -300;
+    height:20px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #78a32f;
+	line-height: 1.3em;
+}
+
+#tasting_page_list {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #999;
+    margin-top: 15px;
+}
+    
+
+
+/* Shipping */
+
+.shipping_header_main {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-size: 66px;
+	color: #78a32f;
+	padding-bottom: 10px;
+}
+
+
+.shipping_details {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #000;
+	padding-bottom: 12px;
+}
+
+
+
+
+/* Typography */
+
+.display_text {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-size: 52px;
+    line-height: .5em;
+	color: #78A12E;
+}
+
+.home_intro {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+
+.home_header_main {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-size: 66px;
+	color: #78a32f;
+    padding-bottom: 10px;
+}
+
+
+.home_intro a:link, .home_intro a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 1.4;
+	color:#78a32f;
+}
+
+.home_intro a:hover {
+    font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 1.4;
+	color: black;
+}
+
+.copyright {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999;
+    text-align: center;
+    line-height: 1em;
+}
+
+
+.copyright a:link, .copyright a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color:#78a32f;
+}
+
+.copyright a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+
+#messageBox {
+	position: fixed;
+	top: 50%;
+	right: 45%;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 12px;
+	background-color: #78a32f;
+	color: #FFFFFF;
+	padding: 24px;
+	display: none;
+    text-align: center;
+}
+
+
+
+/* Error Messages */
+
+.evoo_error {
+    margin: 18px;
+}
+
+
+.evoo_error_1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    line-height:  1em;
+    margin-bottom: 15px;
+}
+
+.evoo_error_2 {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+    line-height:  1.4em;
+    color: #333;
+}
+
+
+.evoo_error_2 .bold {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+    line-height:  1.4em;
+    font-weight: bold;
+    color: #78a32f;
+}
+
+
+
+
+
+    
+
+
+/* Cart */
+
+.cart_header {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;
+	font-size: 66px;
+	color: #78a32f;
+	padding-bottom: 10px;
+}
+
+
+    
+.cart_wrapper a:link, .cart_wrapper a:visited {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 1.4;
+	color:#78a32f;
+}
+
+.cart_wrapper a:hover {
+	color: black;
+}    
+    
+    
+    
+
+.shippingStateDiv {
+
+}
+
+
+.checkout_disclaimer {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 12px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+    
+
+
+.checkout_header_main {
+	font-family: "jubilat", Georgia, "Times New Roman", Times, serif;;
+	font-size: 66px;
+	color: #78a32f;
+	padding-bottom: 0px;
+}
+
+
+.checkout_subheader {
+  color: #78a32f;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.cart_product_subtable {
+    border-bottom: 0px solid white;
+    padding: 0;
+}
+
+
+
+#Amount.cat_textbox {
+    border: 0px;
+      border-top-color: #fff;
+  border-right-color-value: #fff;
+  border-bottom-color: #fff;
+  border-left-color-value: #fff;
+}
+
+
+#shippingCountrySpan {
+    color: #78a32f;
+}
+
+#shippingStateSpan {
+    color: #78a32f;
+}
+
+#shippingSpan {
+    color: #78a32f;
+}
+
+.shippingCountryDiv {
+    margin-bottom: 8px;
+}
+
+.shippingDiv {
+    margin-bottom: 8px;
+}
+
+
+.checkout_text {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+    
+
+
+
+/* Search */
+
+.search_name {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+    line-height:  1.4em;
+    font-weight: bold;
+}
+
+.search_name a:link, .search_name a:visited {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 1.4;
+	color:#78a32f;
+}
+
+.search_name a:hover {
+	color: black;
+}
+
+.search_description {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 1.4;
+    color: #666666;
+    padding: 0 0 10px 15px;
+    margin-bottom: 15px;
+}
+    
+
